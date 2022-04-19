@@ -1,0 +1,50 @@
+/* 
+ hiểu về 3 giá trị: inherit, initial, unset
+
+ inherit: kế thừa từ thằng cha.
+ initial: ăn theo trình duyệt.
+ unset: xảy ra 2 trường hợp:
+  1, là inherit, nếu thằng cha cũng có thuộc tính đó.
+  2, là initial, nếu thằng cha không có. 
+*/
+
+/* .container {
+  padding: 50px;
+  color: red;
+  font-size: 1.6rem;
+  line-height: calc(30 / 16);
+  font-weight: bold;
+}
+
+.one {
+  color: blue;
+  color: inherit;
+}
+.two {
+  color: green;
+  color: initial;
+}
+.three {
+  color: deeppink;
+  color: unset;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+
+  background-color: darkcyan;
+  border-radius: 50%;
+  display: flex;
+}
+.box-icon {
+  margin: auto;
+  font-size: 100px;
+  color: white;
+}
